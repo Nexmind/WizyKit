@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WizyKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WizyKit.'
+  s.summary          = 'WizyKit is a framework with many graphics elements for help you to create nice user interface for your iOS app'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+WizyKit is a framework with many graphics elements for help you to create nice user interface for your iOS app like textfield floating, indicatorView, ...
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/WizyKit'
+  s.homepage         = 'https://github.com/Nexmind/WizyKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Julien Henrard' => 'j.henrard@nexmind.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/WizyKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Nexmind/WizyKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
