@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WizyKit_Example' do
+  pod 'WizyKit', :path => '../'
+
+  target 'WizyKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
