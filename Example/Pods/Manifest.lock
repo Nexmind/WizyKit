@@ -1,0 +1,14 @@
+PODS:
+  - WizyKit (0.1.2)
+
+DEPENDENCIES:
+  - WizyKit (from `../`)
+
+EXTERNAL SOURCES:
+  WizyKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WizyKit: 33f9c6824857664ce594201211d5422b6f501efb
+
+COCOAPODS: 0.39.0

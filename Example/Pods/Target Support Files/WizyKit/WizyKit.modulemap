@@ -1,0 +1,6 @@
+framework module WizyKit {
+  umbrella header "WizyKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

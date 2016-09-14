@@ -10,12 +10,77 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>05D502F1D74DFE92D6149F78</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WizyKit_Example/Pods-WizyKit_Example-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>0F7764F23EB7E8BEB6D24D21</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WizyKit_Example/Pods-WizyKit_Example-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>217D88D77189A03E5088A716</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WizyKit_Example.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WizyKit_Example/Pods-WizyKit_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2870550FF1653EF17982CABE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
 			<key>name</key>
 			<string>LICENSE</string>
 			<key>path</key>
@@ -29,10 +94,84 @@
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
 			<key>name</key>
 			<string>WizyKit.podspec</string>
 			<key>path</key>
 			<string>../WizyKit.podspec</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4581EB67E8D8B779F8ED93AB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>477E33561D85FCC20005D590</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Podfile</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>477E33571D85FCC20005D590</key>
+		<dict>
+			<key>fileRef</key>
+			<string>477E33561D85FCC20005D590</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>48C3FD2DC62974AEDB33FD70</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C959CF18CA52EFABD8B8870</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5731225B195C85016667078A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WizyKit_Example.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WizyKit_Example/Pods-WizyKit_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -42,6 +181,8 @@
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>net.daringfireball.markdown</string>
 			<key>name</key>
 			<string>README.md</string>
 			<key>path</key>
@@ -53,10 +194,13 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>477E33561D85FCC20005D590</string>
 				<string>607FACF51AFB993E008FA782</string>
 				<string>607FACD21AFB9204008FA782</string>
 				<string>607FACE81AFB9204008FA782</string>
 				<string>607FACD11AFB9204008FA782</string>
+				<string>796E879F02E6AE55A1513385</string>
+				<string>8F1841941F585A8FB260CCFB</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -153,7 +297,9 @@
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array/>
+			<array>
+				<string>48C3FD2DC62974AEDB33FD70</string>
+			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -167,6 +313,7 @@
 			<array>
 				<string>607FACDB1AFB9204008FA782</string>
 				<string>607FACE01AFB9204008FA782</string>
+				<string>477E33571D85FCC20005D590</string>
 				<string>607FACDD1AFB9204008FA782</string>
 			</array>
 			<key>isa</key>
@@ -180,9 +327,12 @@
 			<string>607FACEF1AFB9204008FA782</string>
 			<key>buildPhases</key>
 			<array>
+				<string>4581EB67E8D8B779F8ED93AB</string>
 				<string>607FACCC1AFB9204008FA782</string>
 				<string>607FACCD1AFB9204008FA782</string>
 				<string>607FACCE1AFB9204008FA782</string>
+				<string>05D502F1D74DFE92D6149F78</string>
+				<string>0F7764F23EB7E8BEB6D24D21</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -716,6 +866,8 @@
 		</dict>
 		<key>607FACF01AFB9204008FA782</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>217D88D77189A03E5088A716</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -738,6 +890,8 @@
 		</dict>
 		<key>607FACF11AFB9204008FA782</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5731225B195C85016667078A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -837,6 +991,46 @@
 			<string>Podspec Metadata</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>796E879F02E6AE55A1513385</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>217D88D77189A03E5088A716</string>
+				<string>5731225B195C85016667078A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F1841941F585A8FB260CCFB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C959CF18CA52EFABD8B8870</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C959CF18CA52EFABD8B8870</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_WizyKit_Example.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
