@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0DE846835ACD1EB3901E95E1 /* Pods_WizyKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701807E241B2C46363F4221D /* Pods_WizyKit_Example.framework */; };
 		477E33571D85FCC20005D590 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 477E33561D85FCC20005D590 /* Podfile */; };
+		47D952F81DAFE5F9003B8D0A /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 47D952F71DAFE5F9003B8D0A /* .swift-version */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		2870550FF1653EF17982CABE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		432A500C12D53AF0CBEAC93A /* WizyKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WizyKit.podspec; path = ../WizyKit.podspec; sourceTree = "<group>"; };
 		477E33561D85FCC20005D590 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		47D952F71DAFE5F9003B8D0A /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ".swift-version"; path = "../.swift-version"; sourceTree = "<group>"; };
 		596BB17C4372288FF7C8BE02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WizyKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizyKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				432A500C12D53AF0CBEAC93A /* WizyKit.podspec */,
+				47D952F71DAFE5F9003B8D0A /* .swift-version */,
 				596BB17C4372288FF7C8BE02 /* README.md */,
 				2870550FF1653EF17982CABE /* LICENSE */,
 			);
@@ -246,6 +249,7 @@
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				477E33571D85FCC20005D590 /* Podfile in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				47D952F81DAFE5F9003B8D0A /* .swift-version in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
