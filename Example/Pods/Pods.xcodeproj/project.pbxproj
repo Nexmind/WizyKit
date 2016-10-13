@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		201D6BB2812EE5E01096EFF1A5EE1663 /* WizyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9DA8A8CF996F5F2558A63D7C7A69AE /* WizyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FA657E013365A71D1B542A057B32B9C /* Pods-WizyKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D47C935AF00B9A11AF0361E3F59E39C5 /* Pods-WizyKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47A7D3481D89B0C50084902E /* FrostedSidebarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7D3471D89B0C50084902E /* FrostedSidebarDelegate.swift */; };
-		6279AD926E4810797ABAB9656D4FA8E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		63A537E74783B7409C6DF70DA2F975AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		65CB4A9C2E00DED3D17D971C7A885A16 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC8815ADE63C7138689A7A99FBF174 /* FloatLabelTextField.swift */; };
-		B4AFE769A1535EFD0A0F49264673D127 /* Pods-WizyKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82A8AA6EF2A73D19F07AFD32243A56 /* Pods-WizyKit_Example-dummy.m */; };
-		F8D5521987EDC14E4FBC224626C41D2F /* WizyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A20F05FC59F7FF81697861BFBBA0ED84 /* WizyKit-dummy.m */; };
+		0ADC82CC231E49DA991FD5E0DFAD2285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6E875565D7811DD15FA046D94DEEB64D /* Pods-WizyKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D47C935AF00B9A11AF0361E3F59E39C5 /* Pods-WizyKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E28166876F4D8DBC8DAE5A4692A0FCA /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2262D1C69A799D1DC717B57642951D1 /* FloatLabelTextField.swift */; };
+		918932476A81E6E4FF2B1C6E6956586B /* WizyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9DA8A8CF996F5F2558A63D7C7A69AE /* WizyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DEC79FC3574D8A6B009565BA062517B /* WizyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A20F05FC59F7FF81697861BFBBA0ED84 /* WizyKit-dummy.m */; };
+		A1F0F77CC01E8AD1409C2425F92726F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EEC8A34B3E2FA1702276465C087CBE5D /* Pods-WizyKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82A8AA6EF2A73D19F07AFD32243A56 /* Pods-WizyKit_Example-dummy.m */; };
+		F39623BDE69B8445574296E1079CBBE9 /* FrostedSidebarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03DD5586D80478C38CCEA62F80966E /* FrostedSidebarDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D9640F12F771A164A7CF37AB23EC2B8 /* PBXContainerItemProxy */ = {
+		F9884E487C4B6746BF5F78384602D1F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F492692D5996564F23BDFAB84C3BDACF;
+			remoteGlobalIDString = 2F0324D0DEF0A6117E2272476D09A34F;
 			remoteInfo = WizyKit;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,57 +34,58 @@
 		15C13843FAD7664F2368ED36C0E54C5C /* Pods-WizyKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WizyKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		239545F7EFFC72C14A78F64DF3724A82 /* Pods-WizyKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WizyKit_Example-resources.sh"; sourceTree = "<group>"; };
 		25AA4EEBA6261FB699DCB9D96DCDE2B6 /* WizyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WizyKit.modulemap; sourceTree = "<group>"; };
+		27B6B7F96B2C2AFDCEF7C29BB39BE8B7 /* WizyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WizyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		333A0C62556E46B3FA04D766024738A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35434467D9D4876A3E2AE95087C31DD8 /* WizyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WizyKit.xcconfig; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		417DBC131C4E2A178304E74472F447D9 /* Pods-WizyKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WizyKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		47A7D3471D89B0C50084902E /* FrostedSidebarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrostedSidebarDelegate.swift; sourceTree = "<group>"; };
-		4B4DAB2DF962DFD02502125DFA566703 /* Pods_WizyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WizyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9DA8A8CF996F5F2558A63D7C7A69AE /* WizyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WizyKit-umbrella.h"; sourceTree = "<group>"; };
-		956EAA0E740F63871B0F77279E44E880 /* WizyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WizyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		752F6B0F65FF34FFEC519320D337E5CD /* Pods_WizyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WizyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
+		9E03DD5586D80478C38CCEA62F80966E /* FrostedSidebarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrostedSidebarDelegate.swift; sourceTree = "<group>"; };
 		A20F05FC59F7FF81697861BFBBA0ED84 /* WizyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WizyKit-dummy.m"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		BF6E9B4FF8155D4260B3B1A894F1577C /* Pods-WizyKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WizyKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDA065D0355A8EC8B06924DE35F60E4E /* Pods-WizyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WizyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D2BC8815ADE63C7138689A7A99FBF174 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2262D1C69A799D1DC717B57642951D1 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
 		D47C935AF00B9A11AF0361E3F59E39C5 /* Pods-WizyKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WizyKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		D76C5DEAA82AD929FC488C683768E191 /* Pods-WizyKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WizyKit_Example.modulemap"; sourceTree = "<group>"; };
 		FA82A8AA6EF2A73D19F07AFD32243A56 /* Pods-WizyKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WizyKit_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C5FA8F157CA3244ED45C5F79D487F1D /* Frameworks */ = {
+		BF085A170E993B72DFBF8E2851CF1F10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A537E74783B7409C6DF70DA2F975AE /* Foundation.framework in Frameworks */,
+				0ADC82CC231E49DA991FD5E0DFAD2285 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF1528496765080ADA16E2FCA51084EB /* Frameworks */ = {
+		C5EE090CE011799E94A22ED4D0BEF703 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6279AD926E4810797ABAB9656D4FA8E8 /* Foundation.framework in Frameworks */,
+				A1F0F77CC01E8AD1409C2425F92726F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16947283F7C146A4122080F177662FE0 /* WizyKit */ = {
+		13ECD03FD032708AB31DEF107DEB8E13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA47BC586ACA6DB99CEA64616A8C213C /* Classes */,
+				752F6B0F65FF34FFEC519320D337E5CD /* Pods_WizyKit_Example.framework */,
+				27B6B7F96B2C2AFDCEF7C29BB39BE8B7 /* WizyKit.framework */,
 			);
-			path = WizyKit;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		1C98DC694746B6DF9CDE8119EB0D8E9C /* WizyKit */ = {
 			isa = PBXGroup;
 			children = (
 				95652047464299D615A205CACA1A032E /* Support Files */,
-				16947283F7C146A4122080F177662FE0 /* WizyKit */,
+				2F4FE3E68B251EF6D673220301682F16 /* WizyKit */,
 			);
 			name = WizyKit;
 			path = ../..;
@@ -108,6 +109,22 @@
 			path = "Target Support Files/Pods-WizyKit_Example";
 			sourceTree = "<group>";
 		};
+		2F4FE3E68B251EF6D673220301682F16 /* WizyKit */ = {
+			isa = PBXGroup;
+			children = (
+				712B7C7DB97D87F335A0DF52A0081E9A /* Classes */,
+			);
+			path = WizyKit;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		681D0D4A4EAA80F140700DA50843382E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +133,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		712B7C7DB97D87F335A0DF52A0081E9A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D2262D1C69A799D1DC717B57642951D1 /* FloatLabelTextField.swift */,
+				9E03DD5586D80478C38CCEA62F80966E /* FrostedSidebarDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				84DBDB7E6B84E4F6C50C2EE2B95C0E03 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BA3CE109AC96F281CAFD0B343D2E1F32 /* Products */,
+				13ECD03FD032708AB31DEF107DEB8E13 /* Products */,
 				681D0D4A4EAA80F140700DA50843382E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -149,87 +175,43 @@
 			path = "Example/Pods/Target Support Files/WizyKit";
 			sourceTree = "<group>";
 		};
-		AA47BC586ACA6DB99CEA64616A8C213C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D2BC8815ADE63C7138689A7A99FBF174 /* FloatLabelTextField.swift */,
-				47A7D3471D89B0C50084902E /* FrostedSidebarDelegate.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		BA3CE109AC96F281CAFD0B343D2E1F32 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4B4DAB2DF962DFD02502125DFA566703 /* Pods_WizyKit_Example.framework */,
-				956EAA0E740F63871B0F77279E44E880 /* WizyKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DF3517EBCE42AAC921FBE0CD8E06717 /* Headers */ = {
+		726AB95D72C2E73A4EB21753D18C6850 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA657E013365A71D1B542A057B32B9C /* Pods-WizyKit_Example-umbrella.h in Headers */,
+				6E875565D7811DD15FA046D94DEEB64D /* Pods-WizyKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4AC073960408B2628D77ACB2A3BE198 /* Headers */ = {
+		A3BE0E1E0BB7485362BEA1E202A30796 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				201D6BB2812EE5E01096EFF1A5EE1663 /* WizyKit-umbrella.h in Headers */,
+				918932476A81E6E4FF2B1C6E6956586B /* WizyKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ECBE3CE62BEEDE800545B76F1FD04D08 /* Pods-WizyKit_Example */ = {
+		2F0324D0DEF0A6117E2272476D09A34F /* WizyKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C390F964508849A8B889F16363935EA1 /* Build configuration list for PBXNativeTarget "Pods-WizyKit_Example" */;
+			buildConfigurationList = 7E490554B7230C0E42AA5EF69A37C072 /* Build configuration list for PBXNativeTarget "WizyKit" */;
 			buildPhases = (
-				8E3E91701D22E1FD6BC180D6D2E72DAE /* Sources */,
-				FF1528496765080ADA16E2FCA51084EB /* Frameworks */,
-				0DF3517EBCE42AAC921FBE0CD8E06717 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				252A502C478495328FEE49917DC04477 /* PBXTargetDependency */,
-			);
-			name = "Pods-WizyKit_Example";
-			productName = "Pods-WizyKit_Example";
-			productReference = 4B4DAB2DF962DFD02502125DFA566703 /* Pods_WizyKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F492692D5996564F23BDFAB84C3BDACF /* WizyKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63FCEB9A56F146AAEAF6E178EE73316F /* Build configuration list for PBXNativeTarget "WizyKit" */;
-			buildPhases = (
-				21AE83AAF451BE8F3F3A9362BA54BBEB /* Sources */,
-				7C5FA8F157CA3244ED45C5F79D487F1D /* Frameworks */,
-				D4AC073960408B2628D77ACB2A3BE198 /* Headers */,
+				8F9DCE7332710BF3B903A696390AA8E8 /* Sources */,
+				C5EE090CE011799E94A22ED4D0BEF703 /* Frameworks */,
+				A3BE0E1E0BB7485362BEA1E202A30796 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -237,7 +219,25 @@
 			);
 			name = WizyKit;
 			productName = WizyKit;
-			productReference = 956EAA0E740F63871B0F77279E44E880 /* WizyKit.framework */;
+			productReference = 27B6B7F96B2C2AFDCEF7C29BB39BE8B7 /* WizyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B25B447E2D9A0C030619E7EFEE0448E4 /* Pods-WizyKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57EE56F3A173EAC390A4DAC82C93666C /* Build configuration list for PBXNativeTarget "Pods-WizyKit_Example" */;
+			buildPhases = (
+				CA1C2871B4F4B19868A564C7496D967F /* Sources */,
+				BF085A170E993B72DFBF8E2851CF1F10 /* Frameworks */,
+				726AB95D72C2E73A4EB21753D18C6850 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9131DE9D28A91E2D3240C53E089A93D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-WizyKit_Example";
+			productName = "Pods-WizyKit_Example";
+			productReference = 752F6B0F65FF34FFEC519320D337E5CD /* Pods_WizyKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -257,51 +257,117 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BA3CE109AC96F281CAFD0B343D2E1F32 /* Products */;
+			productRefGroup = 13ECD03FD032708AB31DEF107DEB8E13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECBE3CE62BEEDE800545B76F1FD04D08 /* Pods-WizyKit_Example */,
-				F492692D5996564F23BDFAB84C3BDACF /* WizyKit */,
+				B25B447E2D9A0C030619E7EFEE0448E4 /* Pods-WizyKit_Example */,
+				2F0324D0DEF0A6117E2272476D09A34F /* WizyKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21AE83AAF451BE8F3F3A9362BA54BBEB /* Sources */ = {
+		8F9DCE7332710BF3B903A696390AA8E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CB4A9C2E00DED3D17D971C7A885A16 /* FloatLabelTextField.swift in Sources */,
-				F8D5521987EDC14E4FBC224626C41D2F /* WizyKit-dummy.m in Sources */,
+				7E28166876F4D8DBC8DAE5A4692A0FCA /* FloatLabelTextField.swift in Sources */,
+				F39623BDE69B8445574296E1079CBBE9 /* FrostedSidebarDelegate.swift in Sources */,
+				9DEC79FC3574D8A6B009565BA062517B /* WizyKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E3E91701D22E1FD6BC180D6D2E72DAE /* Sources */ = {
+		CA1C2871B4F4B19868A564C7496D967F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4AFE769A1535EFD0A0F49264673D127 /* Pods-WizyKit_Example-dummy.m in Sources */,
-				47A7D3481D89B0C50084902E /* FrostedSidebarDelegate.swift in Sources */,
+				EEC8A34B3E2FA1702276465C087CBE5D /* Pods-WizyKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		252A502C478495328FEE49917DC04477 /* PBXTargetDependency */ = {
+		9131DE9D28A91E2D3240C53E089A93D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WizyKit;
-			target = F492692D5996564F23BDFAB84C3BDACF /* WizyKit */;
-			targetProxy = 2D9640F12F771A164A7CF37AB23EC2B8 /* PBXContainerItemProxy */;
+			target = 2F0324D0DEF0A6117E2272476D09A34F /* WizyKit */;
+			targetProxy = F9884E487C4B6746BF5F78384602D1F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		1A56E697E508C32C630929E5C498313E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35434467D9D4876A3E2AE95087C31DD8 /* WizyKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WizyKit/WizyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WizyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WizyKit/WizyKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WizyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71003C5DC7C36E594718B6ABD4BD11BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35434467D9D4876A3E2AE95087C31DD8 /* WizyKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WizyKit/WizyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WizyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WizyKit/WizyKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WizyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -315,10 +381,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -326,16 +396,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -349,11 +421,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -366,54 +441,27 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		80479C046441B02C653C65B2D0411B42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0340550E1289F5BD382D49C63AC26978 /* Pods-WizyKit_Example.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WizyKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WizyKit_Example/Pods-WizyKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_WizyKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AA397CD739E81BCE7D62CC19E4155751 /* Debug */ = {
+		D843C595842EF9C1F552512B636013A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDA065D0355A8EC8B06924DE35F60E4E /* Pods-WizyKit_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-WizyKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -424,6 +472,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_WizyKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -434,53 +483,33 @@
 			};
 			name = Debug;
 		};
-		C73BCA70F746332376CC80460A6906CC /* Debug */ = {
+		E01C6550F420F190BE8BD5A88D424B45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35434467D9D4876A3E2AE95087C31DD8 /* WizyKit.xcconfig */;
+			baseConfigurationReference = 0340550E1289F5BD382D49C63AC26978 /* Pods-WizyKit_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WizyKit/WizyKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WizyKit/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WizyKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WizyKit/WizyKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WizyKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EC9E9A2AB23F06B05FD5AE97D1BFE2A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35434467D9D4876A3E2AE95087C31DD8 /* WizyKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WizyKit/WizyKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WizyKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WizyKit/WizyKit.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WizyKit_Example/Pods-WizyKit_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = WizyKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WizyKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,26 +524,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63FCEB9A56F146AAEAF6E178EE73316F /* Build configuration list for PBXNativeTarget "WizyKit" */ = {
+		57EE56F3A173EAC390A4DAC82C93666C /* Build configuration list for PBXNativeTarget "Pods-WizyKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C73BCA70F746332376CC80460A6906CC /* Debug */,
-				EC9E9A2AB23F06B05FD5AE97D1BFE2A8 /* Release */,
+				D843C595842EF9C1F552512B636013A6 /* Debug */,
+				E01C6550F420F190BE8BD5A88D424B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C390F964508849A8B889F16363935EA1 /* Build configuration list for PBXNativeTarget "Pods-WizyKit_Example" */ = {
+		7E490554B7230C0E42AA5EF69A37C072 /* Build configuration list for PBXNativeTarget "WizyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA397CD739E81BCE7D62CC19E4155751 /* Debug */,
-				80479C046441B02C653C65B2D0411B42 /* Release */,
+				71003C5DC7C36E594718B6ABD4BD11BB /* Debug */,
+				1A56E697E508C32C630929E5C498313E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

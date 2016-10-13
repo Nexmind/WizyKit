@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WizyKit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'WizyKit is a framework with many graphics elements for help you to create nice user interface for your iOS app'
 
 # This description is used to generate tags and improve search results.
